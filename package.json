@@ -1,0 +1,17 @@
+{
+  "name": "portfolio-my",
+  "version": "1.0.0",
+  "description": "responsive portfolio",
+  "main": "index.js",
+  "homepage": "https://aditya745.github.io/My_Portfolio",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Aditya",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.0.1",
+    "node-sass": "^4.11.0"
+  }
+}
